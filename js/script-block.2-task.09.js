@@ -10,9 +10,19 @@
 
 function getExtremeElements(array) {
   // Change code below this line
-    // const lastElementIndex = array.length - 1;
-    return [array[0]]
+  const lastElement = array.length - 1;
+  const getExtremeElements = [array[0], array[lastElement]];
+  return getExtremeElements;
   // Change code above this line
 }
 
 console.log(getExtremeElements([1, 2, 3, 4, 5]));
+console.log(getExtremeElements(["Earth", "Mars", "Venus"]));
+console.log(getExtremeElements(["apple", "peach", "pear", "banana"]));
+
+// const array = [1, 2, 3, 4, 5];
+// const firstElement = array[0];
+// const lastElement = array.length;
+// console.table(array);
+// console.log(firstElement);
+// console.log(lastElement)
