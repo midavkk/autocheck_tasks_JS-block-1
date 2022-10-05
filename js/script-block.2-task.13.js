@@ -14,18 +14,26 @@
 // Вызов slugify("How to become a JUNIOR developer in TWO WEEKS")
 //     возвращает "how-to-become-a-junior-developer-in-two-weeks"
 
-// function slugify(title) {
-//   // Change code below this line
+function slugify(title) {
+  // Change code below this line
+  const slug = title.toLowerCase().split(" ").join("-");
+  return slug;
+  // Change code above this line
+}
+console.log(slugify("Arrays for begginers"));
+console.log(slugify("English for developer"));
+console.log(slugify("Ten secrets of JavaScript"));
+console.log(slugify("How to become a JUNIOR developer in TWO WEEKS"));
 
-//   // Change code above this line
-// }
+// const title = "Arrays for begginers";
+// const normalizedTitle = title.toLowerCase();
+// console.log(normalizedTitle);
 
-const title = "Arrays for begginers";
-const normalizedTitle = title.toLowerCase();
-console.log(normalizedTitle);
+// const words = normalizedTitle.split(" ");
+// console.table(words);
 
-const words = normalizedTitle.split(" ");
-console.table(words);
+// const slug = words.join("-");
+// console.log(slug);
 
-const slug = words.join("-");
-console.log(slug);
+// const slug1 = title.toLowerCase().split(" ").join("-");
+// console.log(slug1);
