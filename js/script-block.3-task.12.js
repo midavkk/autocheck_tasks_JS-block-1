@@ -1,3 +1,5 @@
+//  <<<----------------- EXAMPLE ----------------->>>
+
 // function filterArray(numbers, value) {
 //   // Change code below this line
 //   let Array = [];
@@ -10,6 +12,8 @@
 //   return Array;
 // }
 // console.log(filterArray([1, 2, 3, 4, 5], 3));
+
+//  <<<----------------- TASK ----------------->>>
 
 function countProps(object) {
   let propCount = 0;
