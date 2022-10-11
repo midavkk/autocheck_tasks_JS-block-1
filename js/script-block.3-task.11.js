@@ -5,6 +5,8 @@
 //   rating: 8.38,
 // };
 
+//  <<<----------------- EXAMPLE ----------------->>>
+
 // for (const key in book) {
 //   // Если это собственное свойство - выполняем тело if
 //   if (book.hasOwnProperty(key)) {
@@ -15,12 +17,14 @@
 //   // Если это не собственное свойство - ничего не делаем
 // }
 
+//  <<<----------------- TASK ----------------->>>
+
 const keys = [];
 const values = [];
 const advert = {
   service: "apt",
 };
-const apartment = Object.create(advert);
+const apacrtment = Object.create(advert);
 apartment.descr = "Spacious apartment in the city center";
 apartment.rating = 4;
 apartment.price = 2153;
