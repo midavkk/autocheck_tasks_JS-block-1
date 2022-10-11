@@ -5,12 +5,16 @@
 //   rating: 8.38,
 // };
 
+//  <<<----------------- EXAMPLE ----------------->>>
+
 // for (const key in book) {
 //   // Ключ
 //     console.log(key);
 //   // Значение свойства с таким ключом
 //   console.log(book[key]);
 // }
+
+//  <<<----------------- TASK ----------------->>>
 
 const apartment = {
   descr: "Spacious apartment in the city center",
