@@ -21,10 +21,5 @@ function makePizza() {
 }
 // Change code below this line
 
-const result = null;
-const pointer = null;
-
-makePizza(result);
-console.log(makePizza(result));
-makePizza(pointer);
-console.log(makePizza);
+const result = makePizza();
+const pointer = makePizza;
