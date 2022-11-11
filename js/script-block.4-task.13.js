@@ -45,9 +45,12 @@ const changeEven = (numbers, value) => {
   numbers.forEach((element) => {
     if (element % 2 === 0) {
       newArray.push(element + value);
+    } else {
+      newArray.push(element);
     }
   });
   return newArray;
   // Change code above this line
 };
 console.log(changeEven([1, 2, 3, 4, 5], 10));
+console.log(changeEven([2, 8, 3, 7, 4, 6], 10));
