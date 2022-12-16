@@ -1,8 +1,6 @@
 // <<<------------- EXAMPLE ------------->>>
 // <<<------------- TASK ------------->>>
 // Change code below this line
-const getUsersWithEyeColor = (users, color) =>
-  users.filter(({ eyeColor }) => eyeColor === color);
 
 const users = [
   {
@@ -69,8 +67,10 @@ const users = [
     gender: "female",
   },
 ];
-const eyeColor = "blue";
+const getUsersWithEyeColor = (users, color) =>
+  users.filter(({ eyeColor }) => eyeColor === color);
 
-console.log(getUsersWithEyeColor(users, blue));
-
+console.log(getUsersWithEyeColor(users, "blue"));
+console.log(getUsersWithEyeColor(users, "green"));
+console.log(getUsersWithEyeColor(users, "brown"));
 // Change code above this line
