@@ -74,6 +74,8 @@ const users = [
   },
 ];
 const getUsersWithAge = (users, minAge, maxAge) =>
-  users.filter(({ age }) => minAge < age || age < maxAge);
+  users.filter(({ age }) => minAge < age && age < maxAge);
 console.log(getUsersWithAge(users, 20, 30));
+console.log(getUsersWithAge(users, 30, 40));
+console.log(getUsersWithAge(users, 80, 100));
 // Change code above this line
